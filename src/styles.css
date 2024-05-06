@@ -95,14 +95,16 @@ body {
 }
 
 .button {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   position: absolute;
   bottom: 0;
   left: 50%;
 
   transform: translate(-50%, 50%);
-  
+
   width: 60px;
   height: 60px;
 
@@ -111,6 +113,12 @@ body {
   border-radius: 50%;
   border: none;
   background-color: var(--neon-green);
+}
+
+.button:hover {
+  -webkit-box-shadow: 0px 0px 40px 0px var(--neon-green);
+  -moz-box-shadow: 0px 0px 40px 0px var(--neon-green);
+  box-shadow: 0px 0px 40px 0px var(--neon-green);
 }
 
 @media (min-width: 768px) {
