@@ -20,6 +20,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
         rel="stylesheet">
   <link rel="stylesheet"
+        href="./src/normalize.css">
+  <link rel="stylesheet"
         href="./src/styles.css">
 </head>
 
@@ -27,43 +29,26 @@
   <h1 class="visually-hidden">Advice generator</h1>
   <div class="container">
     <div class="generator">
-      <h2 class="generator__heading">Advice #<span>117</span></h2>
+      <h2 class="generator__heading">ADVICE #<span class="generator__id">117</span></h2>
 
-      <blockquote class="generator__blockquote">It is easy to sit up and take notice, what's difficult is getting up and
-        taking action.</blockquote>
+      <blockquote class="generator__blockquote blockquote">“<span class="blockquote__text">It is easy to sit up and take notice, what's difficult is getting up and taking action.</span>”</blockquote>
 
-      <div class="generator__divider">
-        <svg width="444"
-             height="16"
-             xmlns="http://www.w3.org/2000/svg">
-          <g fill="none"
-             fill-rule="evenodd">
-            <path fill="#4F5D74"
-                  d="M0 8h196v1H0zM248 8h196v1H248z" />
-            <g transform="translate(212)"
-               fill="#CEE3E9">
-              <rect width="6"
-                    height="16"
-                    rx="3" />
-              <rect x="14"
-                    width="6"
-                    height="16"
-                    rx="3" />
-            </g>
-          </g>
-        </svg>
+      <div class="generator__divider divider">
+        <picture>
+          <source media="(max-width: 768px)" srcset="./images/pattern-divider-mobile.svg" />
+  <source media="(min-width: 769px)" srcset="./images/pattern-divider-desktop.svg" />
+          <img class="divider__image" src="./images/pattern-divider-desktop.svg" alt="Visual divider.">
+        </picture>
       </div>
 
-      <button class="generator__button"><span class="visually-hidden">Generate new advice!</span></button>
-    </div>
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
-         target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      <button class="generator__button button">
+        <img class="button__image" src="./images/icon-dice.svg" alt="Dice icon.">
+        <span class="visually-hidden">Generate new advice!</span>
+      </button>
     </div>
   </div>
 
+  <script src="./src/main.js"></script>
 </body>
 
 </html>
