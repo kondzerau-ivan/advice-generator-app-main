@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![Design preview for the IP address tracker coding challenge](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/kondzerau-ivan/advice-generator-app-main)
-- Live Site URL: [Add live site URL here](https://kondzerau-ivan.github.io/advice-generator-app-main/)
+- Solution URL: [GitHub project page](https://github.com/kondzerau-ivan/advice-generator-app-main)
+- Live Site URL: [Go to Live](https://kondzerau-ivan.github.io/advice-generator-app-main/)
 
 ## My process
 
